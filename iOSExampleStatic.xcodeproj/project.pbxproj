@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		270B9F0A24A2123C00C076BB /* iOSExampleStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B9F0924A2123C00C076BB /* iOSExampleStatic.m */; };
 		270B9F0B24A2123C00C076BB /* iOSExampleStatic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270B9F0824A2123C00C076BB /* iOSExampleStatic.h */; };
+		270B9F1324A2125B00C076BB /* GTStaticTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B9F1224A2125B00C076BB /* GTStaticTest.m */; };
+		270B9F1424A2126F00C076BB /* GTStaticTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270B9F1124A2125B00C076BB /* GTStaticTest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +20,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				270B9F1424A2126F00C076BB /* GTStaticTest.h in CopyFiles */,
 				270B9F0B24A2123C00C076BB /* iOSExampleStatic.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -28,6 +31,8 @@
 		270B9F0524A2123C00C076BB /* libiOSExampleStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSExampleStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B9F0824A2123C00C076BB /* iOSExampleStatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSExampleStatic.h; sourceTree = "<group>"; };
 		270B9F0924A2123C00C076BB /* iOSExampleStatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSExampleStatic.m; sourceTree = "<group>"; };
+		270B9F1124A2125B00C076BB /* GTStaticTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTStaticTest.h; sourceTree = "<group>"; };
+		270B9F1224A2125B00C076BB /* GTStaticTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTStaticTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,8 @@
 			children = (
 				270B9F0824A2123C00C076BB /* iOSExampleStatic.h */,
 				270B9F0924A2123C00C076BB /* iOSExampleStatic.m */,
+				270B9F1124A2125B00C076BB /* GTStaticTest.h */,
+				270B9F1224A2125B00C076BB /* GTStaticTest.m */,
 			);
 			path = iOSExampleStatic;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270B9F0A24A2123C00C076BB /* iOSExampleStatic.m in Sources */,
+				270B9F1324A2125B00C076BB /* GTStaticTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
